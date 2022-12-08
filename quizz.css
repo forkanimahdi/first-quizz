@@ -1,0 +1,208 @@
+body{
+background-color: black;
+color: white;
+}
+#rules{
+position: absolute;
+top: 15%;
+left: 28%;
+border: 1.5px solid white;
+width: 45%;
+height: 58%;
+visibility: visible;
+user-select: none;
+}
+li{
+    margin: 25px;
+    font-size: 18px;
+}
+h2{
+   color: rgb(63, 6, 63);
+    background-color: rgb(116, 102, 102);
+    padding: 30px;
+    text-align: center;
+}
+#next{
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    left: 40%;
+    top: 85%;
+    background-color: azure;
+    color: #101;
+}
+#next:hover{
+    background-color: rgb(20, 1, 20);
+    color: aliceblue;
+}
+span{
+    color: rgb(51, 180, 51);
+}
+#start{
+    width: 20%;
+    border-radius: 10px;
+    position: absolute;
+    top: 47%;
+    left: 40%;
+    height: 9%;
+    visibility: hidden;
+    user-select: none;
+}
+#start:hover{
+    background-color: rgb(63, 189, 63);
+    color: white;
+}
+#quizbox{
+    position: absolute;
+    top: 5%;
+    left: 22%;
+    border: 1.5px solid white;
+    width: 55%;
+    height: 81%;
+    visibility: hidden;
+    user-select: none;
+    }
+    
+.time_left_txt{
+    position: absolute;
+    top: 6%;
+    left: 76%;
+        font-weight: 400;
+        font-size: 20px;
+        user-select: none;
+    }
+    
+.timer_sec{
+    position: absolute;
+    left: 90%;
+    top: 5%;
+        font-size: 18px;
+        font-weight: 500;
+        height: 30px;
+        width: 45px;
+        color: #fff;
+        border-radius: 5px;
+        line-height: 30px;
+        text-align: center;
+        background: green;
+        user-select: none;
+    }
+    #quest{
+width: 70%;
+font-size: 20px;
+position: absolute;
+left: 7%;
+top: 23%;
+}
+.answers{
+width: 55%;
+position: fixed;
+top: 26%;
+font-size: 24px;
+}
+#ansa , #ansb ,#ansc ,#ansd{
+    margin: 4%;
+    display: flex;
+    border: 1px solid #999393;
+   padding: 1.75%;
+    cursor: pointer;
+    border-radius: 10px;
+    user-select: none;
+}
+.block:hover{
+background-color: rgb(37, 36, 36);
+}
+#nextquest{
+position: absolute;
+left: 44%;
+top: 89%;
+width: 10%;
+background-color: rgb(42, 167, 80);
+height: 7%;
+color: white;
+font-size: 12px;
+border-radius: 5px;
+visibility: hidden;
+
+}
+#nextquest:hover{
+    background-color:rgb(14, 131, 49);
+}
+img{
+width: 10%;
+position: absolute;
+left: 45%;
+}
+.score{
+ font-size: 20px;   
+position: absolute;
+top: 6%;
+left: 2%;
+}
+#score{
+    color: darkgrey;
+}
+.qpassed{
+position: absolute;
+top: 94%;
+left: 47%;
+}
+.result{
+position: absolute;
+top: 45%;
+left:19%;
+font-size: 30px;
+visibility: hidden;
+}
+
+@media (max-width : 500px){
+  #rules{
+    width: 97%;
+    left: 1%;
+    height: 60%;
+  }
+#start {
+  width: 40%;
+  left: 30%;
+  top: 45%;
+}
+  #quizbox{
+    width: 90%;
+    left: 5%;
+    height: 74%;
+  }
+  .time_left_txt{
+    font-size: 10px;
+    top: 2%;
+  
+  }
+  .timer_sec{
+    width: 9%;
+    left: 90%;
+    top: 0.5%;
+    font-size: 10px;
+  }
+  .answers{
+    width: 90%;
+    top: 30%;
+  }
+  #ansa , #ansb ,#ansc ,#ansd{
+    padding: 5%;
+    font-size: 18px;
+  }
+  .score{
+    top: 2%;
+    font-size: 18px;
+  }
+  #nextquest{
+    width: 35%;
+    top: 85%;
+    left: 32.8%;
+  }
+
+  
+  
+  
+  
+  
+}

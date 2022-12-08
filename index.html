@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="quizz.css">
+</head>
+<body>
+    <div id="rules">
+<h2> Rules of playing this quizz</h2>
+<ol>
+<li>You only have <span>20 seconds</span> to answer</li>
+<li>Once you select an answer you can't change it</li>
+<li>To pass the Quizz succesfuly you have to score 60 points </li>
+<li>You can't select any option once time goes off.</li>
+</ol>
+<button id="next" onclick="next()">Accept</button>
+    </div>
+<button id="start">Start</button>
+<div class="subjects">
+</div>
+<div id="quizbox">
+    <header> 
+    <div class="timer">
+        <div class="time_left_txt">Time Left :</div>
+        <div class="timer_sec">15</div>
+        </div>
+        <img src="images/mylogoe.png" alt="logo" />
+        <div class="score">Score : <span id="score">00</span></div>
+    </header>
+    <div id="quest">Whats your imsi hsd dsjgd hadg dghhd g ?</div>
+    <div class="answers">
+    <div class="block" id="ansa"></div>
+    <div class="block" id="ansb"></div>
+    <div class="block" id="ansc"></div>
+    <div class="block" id="ansd"></div>
+    </div>
+    <div class="qpassed"><span id="qp"></span>/ 5</div>
+</div>
+<button id="nextquest">Next</button>
+<div class="result">
+
+</div>
+   <script src="quizz.js"></script>
+</body>
+</html>
